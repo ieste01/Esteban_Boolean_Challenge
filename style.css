@@ -1,0 +1,113 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contenitore {
+    width: 860px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px auto;
+
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    margin: 10px auto 10px;
+}
+
+h1 {
+    margin: 5px auto;
+    color: #00FF00;
+    font-family: "Siberian-Regular";
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.barra1 {
+    background-color: #00FF00;
+    text-align: center;
+    padding: 10px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+main {
+    margin: auto;
+    width: 85%;
+}
+
+.type h2 {
+    display: inline-block;
+    color: white;
+    font-family: "Siberian-Regular";
+    font-size: 20px;
+    font-weight: 500;
+    width: 96%;
+    margin-bottom: 0;
+}
+
+.type span {
+    color: white;
+    font-family: "Siberian-Regular";
+}
+
+.type .checkbox {
+    width: 10px;
+    height: 10px;
+}
+
+.type .arrow {
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: middle;
+    font-weight: 220;
+    font-size: 15px;
+    width: 1%;
+}
+
+.type .address {
+    display: inline-block;
+    width: 97%;
+    font-size: 15px;
+}
+
+.type .charge {
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+}
+
+/*estetica 3 barre*/
+button.orange_bar {
+    background-color: #f5b04a;
+    width: 45%;
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+button.green_bar {
+    background-color: #02c402;
+    width: 64%;
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+button.red_bar {
+    background-color: #c44242;
+    width: 16%;
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+}
